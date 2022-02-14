@@ -1,0 +1,32 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">Api test</string>
+
+    <!-- Navigation -->
+    <string name="title_home">Новости</string>
+    <string name="title_notes">Заметки</string>
+    <string name="title_messages">Сообщения</string>
+    <string name="title_news">Информация</string>
+    <string name="title_settings">Настройки</string>
+
+    <!-- Home Fragment -->
+    <string name="hello_user">
+        Привет, \n%s 🖖
+    </string>
+
+    <!-- Tab bar items -->
+    <string name="tab_timetable">Расписание</string>
+    <string name="tab_homework">Задания</string>
+    <string name="tab_weather">Погода</string>
+
+    <!-- Schedule Fragment -->
+    <string name="item_timetable_icon_description">Icon for lesson</string>
+
+    <!-- Weather Fragment -->
+    <string name="weather_text">Облачно</string>
+    <string name="tab_today">Сегодня</string>
+    <string name="tab_tomorrow">Завтра</string>
+    <string name="weather_degrees">\n%s°</string>
+    <string name="weather_message">Ожидается сильный ветер в 13:00</string>
+
+</resources>

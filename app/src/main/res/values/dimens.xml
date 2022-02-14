@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core -->
+    <dimen name="margin_header_top">32dp</dimen>
+    <dimen name="margin_horizontal">20dp</dimen>
+
+    <!-- Home Fragment -->
+    <dimen name="margin_tabs_top">28dp</dimen>
+    <dimen name="margin_content_tabs">20dp</dimen>
+
+    <!-- Timetable Fragment -->
+    <dimen name="padding_container_important_top">14dp</dimen>
+    <dimen name="padding_container_important_bottom">23dp</dimen>
+    <dimen name="padding_container_important_horizontal">16dp</dimen>
+
+    <dimen name="margin_timetable_top">24dp</dimen>
+    <dimen name="margin_timetable_recycler_top">15dp</dimen>
+    <dimen name="margin_item_title_start">16dp</dimen>
+    <dimen name="margin_item_lesson_image">16dp</dimen>
+
+    <!-- Homework Fragment -->
+    <dimen name="margin_item_homework_image_start">21dp</dimen>
+    <dimen name="margin_item_homework_image">18dp</dimen>
+
+    <!-- Weather Fragment -->
+    <dimen name="margin_title_weather_top">18dp</dimen>
+    <dimen name="margin_title_weather_end">24dp</dimen>
+    <dimen name="margin_weather_tabs_top">24dp</dimen>
+    <dimen name="margin_weather_recycler">24dp</dimen>
+    <dimen name="margin_item_image">16dp</dimen>
+    <dimen name="margin_item_temperature">20dp</dimen>
+    <dimen name="margin_item_vertical">16dp</dimen>
+
+</resources>
