@@ -24,7 +24,7 @@ class HomeFragment :
         FragmentHomeBinding.inflate(inflater, container, false)
 
     override fun setupViews() {
-        viewModel.getUser1()
+        viewModel.getNote1()
         subscribeOnNoteRequest()
     }
 

@@ -11,7 +11,7 @@ class HomeViewModel : BaseViewModel() {
     private val _note = MutableStateFlow<Event<Note>>(Event.loading())
     val note: StateFlow<Event<Note>> = _note
 
-    fun getUser1() {
+    fun getNote1() {
         requestWithMutableFlow(_note) {
             api.getNote()
         }

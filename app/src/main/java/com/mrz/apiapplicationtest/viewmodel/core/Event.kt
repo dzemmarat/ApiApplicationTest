@@ -14,11 +14,16 @@ data class Event<out T>(val status: Status, val data: T?, val error: String?) {
         fun <T> error(error: String?): Event<T> {
             return Event(Status.ERROR, null, error)
         }
+
+        fun <T> idle(): Event<T> {
+            return Event(Status.IDLE, null, null)
+        }
     }
 }
 
 enum class Status {
     SUCCESS,
     ERROR,
-    LOADING
+    LOADING,
+    IDLE
 }

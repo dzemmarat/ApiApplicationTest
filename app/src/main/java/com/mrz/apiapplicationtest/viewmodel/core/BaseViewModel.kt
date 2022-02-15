@@ -1,5 +1,6 @@
 package com.mrz.apiapplicationtest.viewmodel.core
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.mrz.apiapplicationtest.data.network.ApiClient
@@ -23,7 +24,7 @@ open class BaseViewModel : ViewModel() {
                 val response = request.invoke()
                 flow.value = Event.success(response)
             } catch (e: Exception) {
-                e.message?.let { Timber.e(it) }
+                e.message?.let { Log.e("Error", it) }
                 flow.value = Event.error(e.message)
             }
         }
