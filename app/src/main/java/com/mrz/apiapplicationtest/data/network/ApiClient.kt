@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit
 
 object ApiClient {
 
-    private const val BASE_URL = "https://620aac1a92946600171c5c0f.mockapi.io/"
+    private const val BASE_URL = "https://jsonplaceholder.typicode.com/"
 
     private fun provideMoshi(): Moshi = Moshi.Builder()
         .addLast(KotlinJsonAdapterFactory())

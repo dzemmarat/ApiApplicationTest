@@ -44,8 +44,8 @@ class NotesFragment:
                             tvDescription.visible()
 
                             tvId.text = note.data?.id.toString()
-                            tvTitle.text = note.data?.title
-                            tvDescription.text = note.data?.description
+                            tvTitle.text = note.data?.userId
+                            tvDescription.text = note.data?.title
                         }
                     }
                     Status.ERROR -> {

@@ -6,14 +6,14 @@ import retrofit2.http.Path
 
 interface NotesApi {
 
-    @GET("note/1")
+    @GET("todos/1")
     suspend fun getNote() : Note
 
-    @GET("note/{id}")
+    @GET("todos/{id}")
     suspend fun getNoteById(
         @Path("id") id: Int
     ) : Note
 
-    @GET("note")
+    @GET("todos")
     suspend fun getNotes() : List<Note>
 }

@@ -34,8 +34,8 @@ class NotesAdapter(private val dataSet: List<Note>) : RecyclerView.Adapter<Notes
 
         // Get element from your dataset at this position and replace the
         // contents of the view with that element
-        viewHolder.tvTitle.text = dataSet[position].title
-        viewHolder.tvDescription.text = dataSet[position].description
+        viewHolder.tvTitle.text = dataSet[position].userId
+        viewHolder.tvDescription.text = dataSet[position].title
         viewHolder.tvId.text = dataSet[position].id
     }
 
